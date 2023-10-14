@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    float x;
-    scanf("%f",&x);
+    int x;
+    scanf("%d",&x);
     if(x<150)
     {
         printf("The person is Dwarf.");
@@ -16,5 +16,7 @@ int main()
         printf("The person is taller.");
     }
     else 
-    printf("Abnormal height.");
+    {
+        printf("Abnormal height.");
+    }
 }
