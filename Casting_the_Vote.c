@@ -5,7 +5,8 @@ int main()
     scanf("%d",&age);
     if(age>=18)
     {
-        printf("YES");
+        printf("YES
+");
     }
     else
     {
