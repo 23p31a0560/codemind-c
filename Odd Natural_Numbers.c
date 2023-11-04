@@ -3,9 +3,15 @@ int main()
 {
     int i,N;
     scanf("%d",&N);
-    for(i=1;i<=N;i++)
+    i=1;
+    while(i<=N)
     {
         if(i%2!=0)
-        printf("%d ",i);
+        
+        {
+            printf("%d ",i);
+        }
+        i++;
+        
     }
 }
