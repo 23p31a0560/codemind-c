@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,sum=0;
+    int i=1,n,sum=0;
     scanf("%d",&n);
-    for(i=1;i<n;i++)
+    while(i<n)
     {
-        if(n%i==0)
-        sum=sum+i;
-        
+        if((n%i)==0)
+        {
+            sum=sum+i;
+        }
+        i++;
     }
     printf("%d",sum);
 }
